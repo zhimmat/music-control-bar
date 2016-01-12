@@ -10,7 +10,7 @@
 - Your goal is to match images in the `screenshots` folder.
 - The HTML is already done—don’t touch it.
 - And some of the CSS is in place too.
-- *What’s important for you to do is add the proper `position` and coordinates to the right elements.*
+- *What’s important for you to do is add the proper `position` and coordinates to the correct elements.*
 
 ---
 
@@ -19,7 +19,7 @@
 Use the fork and pull request method. **Hand in your Pull Request URL for this project.**
 
 ```
-https://github.com/acgd-webdev-1/fork-pass-tests/pull/1
+https://github.com/acgd-webdev-1/music-control-bar/pull/1
 ```
 
 **This exercise is pass or fail based on whether you complete all the requirements of the auto grading.**
