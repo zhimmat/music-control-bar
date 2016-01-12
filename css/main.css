@@ -1,0 +1,105 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.music-bar {
+  min-height: 50px;
+  padding-top: 6px;
+  background-image: linear-gradient(to bottom, #e2e2e2, #ccc);
+  text-align: center;
+  color: #333;
+}
+
+.song {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.band {
+  font-size: .8rem;
+  margin: 0;
+  color: #666;
+}
+
+.album {
+
+}
+
+.time {
+
+}
+
+.time-bar {
+  height: 8px;
+  margin: 0;
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 0;
+  background-color: #aaa;
+}
+
+/*
+  DON’T TOUCH
+  They’re just there to colour the progress bar
+*/
+
+.time-bar::-moz-progress-bar {
+  background-color: #666;
+}
+
+.time-bar::-webkit-progress-value {
+  background-color: #666;
+}
+
+/* END DON’T TOUCH ZONE */
+
+.time-lapsed {
+  font-size: .7rem;
+}
+
+.time-total {
+  font-size: .7rem;
+}
+
+.controls {
+  margin: 0;
+  padding: 0;
+  color: #666;
+  font-size: 1.8rem;
+  line-height: 16px;
+  list-style-type: none;
+}
+
+.control-shuffle {
+
+}
+
+.control-list {
+
+}
+
+.control-heart {
+
+}
