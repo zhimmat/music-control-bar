@@ -47,12 +47,12 @@ body {
   position:absolute;
   top:0;
   left:0;
-width:50px;
+  width:50px;
 }
 
 .time {
-width: 100%;
-bottom:0;
+  width: 100%;
+  bottom:0;
 }
 
 .time-bar {
@@ -111,9 +111,9 @@ bottom:0;
 }
 
 .control-shuffle {
-position: absolute;
-top:0;
-left:55px;
+  position: absolute;
+  top:0;
+  left:55px;
 }
 
 .control-list {
